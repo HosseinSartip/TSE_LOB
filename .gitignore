@@ -1,0 +1,37 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local application data and generated reports
+.tse_lob_data/
+tse_orderbook_data/
+exports/
+*.sqlite
+*.sqlite3
+*.db
+*.wal
+*.shm
+*.csv
+*.parquet
+*.wf1
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+*.part
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment/configuration
+.env
+.env.*
+!.env.example
